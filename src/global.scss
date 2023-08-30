@@ -1,0 +1,8 @@
+$mainColor: #15023a;
+$mobileWidth: 768px;
+
+@mixin mobile {
+  @media only screen and (max-width:#{$mobileWidth}) {
+    @content
+  }
+}
