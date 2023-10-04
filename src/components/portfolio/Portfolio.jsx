@@ -3,7 +3,7 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import {
   webPortfolio,
-  mobilePortfolio,
+  BlockchainPortfolio,
   contentPortfolio,
   designPortfolio,
   featuredPortfolio,
@@ -23,7 +23,7 @@ function Portfolio() {
     },
     {
       id: "mobile",
-      title: "Mobile App",
+      title: "Blockchain App",
     },
     {
       id: "design",
@@ -42,7 +42,7 @@ function Portfolio() {
         break;
       }
       case "mobile": {
-        setData(mobilePortfolio);
+        setData(BlockchainPortfolio);
         break;
       }
       case "content": {

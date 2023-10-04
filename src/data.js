@@ -6,7 +6,7 @@ export const featuredPortfolio = [
   },
   {
     id: 2,
-    title: "Rampa UI Design",
+    title: "React Portfolio By Tailwind",
     img: "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
   },
   {
@@ -16,17 +16,17 @@ export const featuredPortfolio = [
   },
   {
     id: 4,
-    title: "Relax Mobile App",
+    title: "Admin Dashboard",
     img: "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
   },
   {
     id: 5,
-    title: "Hero Web Design",
+    title: "Solana Web3",
     img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
   },
   {
     id: 6,
-    title: "Banking App",
+    title: "Socket-io programming",
     img: "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
   },
 ];
@@ -64,35 +64,35 @@ export const webPortfolio = [
   },
 ];
 
-export const mobilePortfolio = [
+export const BlockchainPortfolio = [
   {
     id: 1,
-    title: "Mobile Social Media App",
+    title: "Solana Wallet App",
     img: "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
   },
   {
     id: 2,
-    title: "Mobile Rampa UI Design",
+    title: "Solana NFT",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
   },
   {
     id: 3,
-    title: "Mobile E-commerce Design",
+    title: "Solana Crowdfunding App",
     img: "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
   },
   {
     id: 4,
-    title: "Mobile Relax App",
+    title: "Solana Messenger App",
     img: "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
   },
   {
     id: 5,
-    title: "Mobile Hero Design",
+    title: "Solana CLI",
     img: "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
   },
   {
     id: 6,
-    title: "Mobile Banking App",
+    title: "Solana PDA",
     img: "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
   },
 ];
