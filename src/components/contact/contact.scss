@@ -19,13 +19,30 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        @include sm{
+            justify-content: space-evenly;
+          }
         @include mobile{
-          justify-content: space-around;
+          justify-content: space-evenly;
+        }
+        @include lg{
+          justify-content: flex-start;
         }
         h2{
             font-size: 30px;
+            @include sm{
+                font-size: 18px;
+            }
             @include mobile{
-                font-size: 20px;
+                font-size: 25px;
+            }
+            @include lg{
+                margin-top: 20px;
+                font-size: 25px;
+            }
+            @include xl{
+                margin-top: 20px;
+                font-size: 30px;
             }
         }
         form{
@@ -42,9 +59,21 @@
                 outline: none;
                 padding: 10px 20px;
                 font-size: 14px;
+                @include sm{
+                    width: 70%;
+                    height: 5px;
+                }
                 @include mobile{
-                    width: 200px;
-                    height: 20px;
+                    width: 50%;
+                    height: 10px;
+                }
+                @include lg{
+                    width: 50%;
+                    height: 10px;
+                }
+                @include xl{
+                    width: 30%;
+                    height: 10px;
                 }
             }
             textarea{
@@ -54,9 +83,21 @@
                 outline: none;
                 border-radius: 10px;
                 padding: 10px 20px;
+                @include sm{
+                    width: 70%;
+                    height: 70px;
+                }
                 @include mobile{
-                    width: 200px;
-                    height: 110px;
+                    width: 50%;
+                    height: 70px;
+                }
+                @include lg{
+                    width: 50%;
+                    height: 70px;
+                }
+                @include xl{
+                    width: 30%;
+                    height: 70px;
                 }
             }
             button{
@@ -69,9 +110,21 @@
                 border-radius: 10px;
                 font-weight: 500;
                 cursor: pointer;
+                @include sm{
+                    width: 50%;
+                    height: 35px;
+                }
                 @include mobile{
-                    width: 100px;
-                    height: 20px;
+                    width: 35%;
+                    height: 35px;
+                }
+                @include lg{
+                    width: 25%;
+                    height: 35px;
+                }
+                @include xl{
+                    width: 25%;
+                    height: 40px;
                 }
             }
             span{

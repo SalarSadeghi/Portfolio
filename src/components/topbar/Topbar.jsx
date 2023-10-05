@@ -8,9 +8,9 @@ function Topbar({menuOpen,setMenuOpen}) {
         <div className="left">
           <a href="#intro"  className='logo'>Salar CV</a>
           <div className="itemContainer">
-            <a href="tel:+989217440127" className='mailLink'>
+            <a href="tel:+98921***0127" className='mailLink'>
             <PhoneIphone className='icon'/>
-            <span>+989217440127</span>
+            <span>+98 921***0127</span>
             </a>
           </div>
           <div className="itemContainer">

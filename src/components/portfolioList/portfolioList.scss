@@ -3,6 +3,9 @@
     margin-right: 50px;
     padding: 7px;
     border-radius: 10px;
+    @include sm {
+      margin-right: 10px;
+    }
     @include mobile{
        margin-right: 15px;
     }

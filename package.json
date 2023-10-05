@@ -1,7 +1,8 @@
 {
   "name": "create-react-app",
+  "homepage": "https://salarsadeghi.github.io/Portfolio/",
   "version": "0.1.0",
-  "homepage": "https://salarsadeghi.github.io/Responsive_React_Portfolio/",
+ 
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -48,3 +49,4 @@
     "gh-pages": "^6.0.0"
   }
 }
+ 

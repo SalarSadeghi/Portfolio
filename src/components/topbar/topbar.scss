@@ -28,8 +28,14 @@
                 display: flex;
                 align-items: center;
                 margin-right: 30px;
+                @include sm {
+                    display: none;
+                }
                 @include mobile {
                     display: none;
+                }
+                @include lg {
+                    display: flex;
                 }
                 .icon {
                     margin-right: 5px;
@@ -42,7 +48,7 @@
                 }
                 span{
                     font-weight: 400;
-                    font-size: 13px;
+                    font-size: 14px;
                 }
             }
         }
